@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    font-family: sans-serif;
+    color: chocolate;
+    /* border: 1px solid red; */
+}
+#sidebar{
+    flex: 2;
+    /* border: 1px solid rgb(28, 17, 77); */
+    text-align: center;
+    padding: 5px;
+}
+#main{
+    flex: 8;
+    /* border: 1px solid rgb(17, 76, 124); */
+    padding: 50px;
+}
+#news{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px auto;
+    text-align: center;
+    width: 80%;
+}
+#news > div{
+    width: 30%;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
